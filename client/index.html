@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- para que se adpe a las pantallas de los defentes dispositos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat con socket.io y node.js</title>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+    <style>
+        #message{
+            width: 50%;
+            max-height: 500px;
+            overflow-y: scroll;
+            border: 3px solid black;
+            box-shadow: 0px 0px 500px rgb(245, 229, 6) inset;
+            margin-bottom: 10px;
+        }
+        /* datos que viene del servidor */
+        .servidor{
+            margin: 20px;
+            padding: 11px;
+            border-radius: 5px;
+            border: 2px solid black ;
+            background: white;
+
+        }
+        #button{
+            background: rgb(251, 255, 0);
+            color: white;
+            width: 300px;
+            height: 50px;
+            font-size: 35px;
+            border: 2px solid black ;
+            
+        }
+        input{
+            border: 2px solid black ;
+        }
+        textarea{
+           margin-top: 14px;
+           margin-bottom: 14px;
+           display: block;
+           border: 2px solid black ;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <h1>Chad con socket.io y node.js</h1>
+    <!-- en el div se va apintar el contenido html ya iterado -->
+    <div id="message"></div>  
+
+    recogemos y lanzamos una funcion y le pasamos el evento
+    <form onsubmit="return addMessage(this);">
+        <input type="text" id="nickname" placeholder="Nombre de Usuario">  
+        <textarea id="text" placeholder="Mensaje..."></textarea>
+        <input id="button" type="submit" value="Enviar">
+    </form>
+
+
+</body>
+</html>

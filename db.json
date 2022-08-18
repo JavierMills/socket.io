@@ -1,0 +1,87 @@
+{
+    "CreditoEnGarantia":[
+        
+    {
+        "documento": "RESOLUCION",
+        "descargar": "DOCUMENTO"
+    },
+    {
+        "documento": "CARTA CONFIRMACION RESOLUCION",
+        "descargar": "DOCUMENTO"
+    },
+    {
+        "documento": "BURO DE CREDITO DE LA ACREDITADA",
+        "descargar": "DOCUMENTO"
+    },
+    {
+        "documento": "BURO DE CREDITO DE LOS AVALES",
+        "descargar": "DOCUMENTO"
+    },
+    {
+        "documento": "SOLICITUD DE CREDITO (RIES 001)",
+        "descargar": "DOCUMENTO"
+    },
+    {
+        "documento": "RATING COMENTADO",
+        "descargar": "DOCUMENTO"
+    },
+    {
+        "documento": "PANTALLA DE RATING CONDORMADO/CERRADO",
+        "descargar": "DOCUMENTO"
+    },
+    {
+        "documento": "INFORMACION FINANCIERA",
+        "descargar": "DOCUMENTO"
+    },
+    {
+        "documento": "RESUMEN INFLACIONADO",
+        "descargar": "DOCUMENTO"
+    },
+    {
+        "documento": "RATIOS",
+        "descargar": "DOCUMENTO"
+    },
+    {
+        "documento": "ESQUEMA",
+        "descargar": "DOCUMENTO"
+    },
+    {
+        "documento": "CUADRO DE PASIVOS",
+        "descargar": "DOCUMENTO"
+    }, 
+    {
+        "documento": "DOCUMENTO QUE AVALE LA IMPORT/EXPORT",
+        "descargar": "DOCUMENTO"
+    }, 
+    {
+        "documento": "CARTA SOLICITUD",
+        "descargar": "DOCUMENTO"
+    }, 
+    {
+        "documento": "CARTA EXPEDIENTE",
+        "descargar": "DOCUMENTO"
+    }, 
+    {
+        "documento": "ADF",
+        "descargar": "DOCUMENTO"
+    }, 
+    {
+        "documento": "CARTA OFERTA",
+        "descargar": "DOCUMENTO"
+    }, 
+    {
+        "documento": "ANEXO A",
+        "descargar": "DOCUMENTO"
+    }, 
+    {
+        "documento": "ANEXO1",
+        "descargar": "DOCUMENTO"
+    }, 
+    {
+        "documento": "CARTA RESPONSIVA",
+        "descargar": "DOCUMENTO"
+    }
+    
+  ]
+    
+  }
